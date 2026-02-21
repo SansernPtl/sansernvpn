@@ -1,13 +1,16 @@
 {
+  "log": {
+    "loglevel": "warning"
+  },
   "inbounds": [
     {
       "port": 8080,
+      "listen": "0.0.0.0",
       "protocol": "vless",
       "settings": {
         "clients": [
           {
-            "id": "6a9f3c21-8d4b-4e7a-b2c9-5f1d3a8e7b60",
-            "level": 0
+            "id": "b98d5617-13de-4962-8315-1c04b3b36306"
           }
         ],
         "decryption": "none"
@@ -15,15 +18,14 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/sansernvpn"
+          "path": "/@sansern404"
         }
       }
     }
   ],
   "outbounds": [
     {
-      "protocol": "freedom",
-      "settings": {}
+      "protocol": "freedom"
     }
   ]
 }
